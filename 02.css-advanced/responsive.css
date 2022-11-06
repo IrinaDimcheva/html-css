@@ -1,0 +1,71 @@
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+
+  main {
+    width: unset;
+  }
+  .left-to-right:first-child {
+    padding: 3em 2.5em;
+    height: unset;
+  }
+  
+  .left-to-right:first-child article {
+    margin-bottom: 3em;
+  }
+
+  main .left-to-right article {
+    width: unset;
+    padding: 0.5em 2em;
+    border-radius: 5em;
+  }
+
+  header h1 {
+    font-size: 1.8em;
+  }
+
+  header p {
+    font-size: 1.1em;
+  }
+
+  p {
+    line-height: 1.8;
+    font-size: 0.9em;
+  }
+
+  main section:nth-child(2),
+  main section:nth-child(4) {
+    flex-direction: column;
+  }
+
+  main section:nth-child(1) button,
+  main section:nth-child(2) button,
+  main section:nth-child(3) button {
+    display: none;
+  }
+
+  main section:nth-child(2) article {
+    padding-inline: 2em;
+  }
+
+  main section:nth-child(2) article img {
+    width: 100%;
+  }
+
+  main section:nth-child(4) article {
+    margin-inline: 2em;
+  }
+
+  form {
+    margin-inline: auto;
+    width: 80%;
+  }
+
+  section form label input,
+  section form textarea {
+    width: 90%;
+    display: block;
+    padding-top: 15px;
+  }
+}

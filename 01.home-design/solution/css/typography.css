@@ -1,0 +1,42 @@
+:root {
+  --bg-light: #f5f5f5;
+  --clr-red: #cb2027;
+}
+
+html {
+  font: 18px/1.5 'Courgette', cursive;
+}
+
+body, form, input, textarea, option, select, button, a {
+  font: inherit;
+  background-color: inherit;
+  color: inherit;
+}
+
+p, ul, ol {
+  padding-bottom: 1.5em;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5em;
+  font-weight: normal;
+}
+
+h1 { font-size: 3.2em; }
+h2 { font-size: 2.2em; }
+h3 { font-size: 2.0em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.0em; }
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}

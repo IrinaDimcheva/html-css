@@ -1,0 +1,49 @@
+:root {
+  --clr-lightgreen: #b2f1dd;
+  --clr-green: #00d08e;
+  --clr-black: #20252d;
+  --clr-darkgray: #263038;
+}
+
+html {
+  font: 18px/1.5 'PT Sans', sans-serif;
+  color: var(--clr-darkgray);
+}
+
+body, form, input, textarea, option, select, button, a {
+  font: inherit;
+  background-color: inherit;
+  color: inherit;
+}
+
+p, ul, ol {
+  padding-bottom: 1.5em;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5em;
+  padding-bottom: 0.5em;
+  /* padding-top: 1.5rem; */
+  /* font-weight: normal; */
+  color: var(--clr-black);
+}
+
+h1 { font-size: 3.2em; }
+h2 { font-size: 2.0em; }
+h3 { font-size: 1.6em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.0em; }
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  margin-bottom: 1em;
+}
